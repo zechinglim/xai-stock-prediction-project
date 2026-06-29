@@ -1,6 +1,12 @@
 '''
+
+----------
+config.py
+----------
+
 Central configuration for all modules
 All constants are stored here for easy maintenance
+
 '''
 
 # =====================================================
@@ -36,10 +42,14 @@ END_DATE = None  # None = today's date
 # PATHS
 # =====================================================
 
-RAW_DATA_PATH = 'data/raw/'
-FEATURE_DATA_PATH = "data/features/"
-PROCESSED_DATA_PATH = 'data/processed/'
-MODELS_PATH = 'models/'
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent # Finding project root
+
+RAW_DATA_PATH = BASE_DIR / "data" / "raw"
+FEATURE_DATA_PATH = BASE_DIR / "data" / "features"
+PROCESSED_DATA_PATH = BASE_DIR / "data" / "processed"
+MODELS_PATH = BASE_DIR / "models"
 
 # =====================================================
 # FEATURE COLUMNS

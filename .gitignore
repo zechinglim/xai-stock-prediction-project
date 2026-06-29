@@ -1,2 +1,3 @@
-project_venv_activate.bat/
+project_venv_activate/
 venv/
+__pycache__/
