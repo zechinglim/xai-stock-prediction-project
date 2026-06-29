@@ -51,6 +51,6 @@ The project uses the XGBoost machine learning algorithm together with SHAP (SHap
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/stock-prediction-xai-shap.git
+git clone https://github.com/zechinglim/xai-stock-prediction-project
 cd stock-prediction-xai-shap
 ```
