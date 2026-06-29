@@ -45,12 +45,3 @@ The project uses the XGBoost machine learning algorithm together with SHAP (SHap
 * Predicts next-day stock price direction (Up or Down)
 * Provides SHAP explanations for model predictions
 * Interactive dashboard built with Streamlit
-
-## Repository Setup
-
-Clone the repository:
-
-```bash
-git clone https://github.com/zechinglim/xai-stock-prediction-project
-cd stock-prediction-xai-shap
-```
