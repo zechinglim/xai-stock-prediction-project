@@ -32,7 +32,7 @@ logging.basicConfig(level = logging.INFO, format = '%(levelname)s | %(message)s'
 # OPTIMIZATION SETTINGS
 # =====================================================
 
-FORCE_REDOWNLOAD = True   # change to False if you want to skip existing files
+FORCE_REDOWNLOAD = True   # change to False if want to skip existing files
 
 
 # =====================================================
@@ -116,7 +116,7 @@ def download_all_stocks():
 
             file_path = os.path.join(RAW_DATA_PATH, f'{safe_ticker}_{safe_name}.csv')
 
-            # Skip if file exists (this is when 'FORCE_REDOWNLOAD = False' in optimization settings)
+            # Skip if file exists (when 'FORCE_REDOWNLOAD = False' in optimization settings)
             if not FORCE_REDOWNLOAD and os.path.exists(file_path):
                 logging.info(f'Skipping existing file: {ticker}')
                 continue
