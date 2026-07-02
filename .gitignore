@@ -1,3 +1,4 @@
 project_venv_activate.bat
 venv/
 __pycache__/
+.ipynb_checkpoints/
