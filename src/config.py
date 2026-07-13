@@ -55,7 +55,7 @@ MODELS_PATH = BASE_DIR / "models"
 # FEATURE COLUMNS
 # =====================================================
 
-FEATURES = ['rsi',
+FEATURES_v1 = ['rsi',
             'macd',
             'macd_signal',
             'macd_diff',
@@ -67,11 +67,40 @@ FEATURES = ['rsi',
             'bb_mid',
             'bb_low',
             'volume_sma',
-            'returns'
+            'returns',
+            ]
+
+FEATURES_v2 = ['rsi',
+            'macd',
+            'macd_signal',
+            'macd_diff',
+            'sma_20',
+            'sma_50',
+            'ema_20',
+            'ema_50',
+            'bb_high',
+            'bb_mid',
+            'bb_low',
+            'volume_sma',
+            'returns',
+
+            # Additional features
+            'returns_lag_1',
+            'returns_lag_3',
+            'returns_lag_5',
+            'volatility_10',
+            'volatility_20',
+            'daily_range',
+            'volume_change'
             ]
 
 # =====================================================
-# FTARGET COLUMNS
+# TARGET COLUMNS
 # =====================================================
 
 TARGET = 'target'
+
+# =====================================================
+# MODEL SETTINGS
+# =====================================================
+WALK_FORWARD_START_YEAR = 2021

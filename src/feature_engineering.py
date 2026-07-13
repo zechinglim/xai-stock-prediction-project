@@ -69,6 +69,22 @@ def add_features(df):
     df['bb_mid'] = bb['BBM_20_2.0_2.0']
     df['bb_high'] = bb['BBU_20_2.0_2.0']
 
+    # Lag returns
+    df['returns_lag_1'] = df['returns'].shift(1)
+    df['returns_lag_3'] = df['returns'].shift(3)
+    df['returns_lag_5'] = df['returns'].shift(5)
+
+    # Volatility
+    df['volatility_10'] = (df['returns'].rolling(10).std())
+
+    df['volatility_20'] = (df['returns'].rolling(20).std())
+
+    # Daily price range
+    df['daily_range'] = ((df['High'] - df['Low']) / df['Close'])
+
+    # Volume change
+    df['volume_change'] = (df['Volume'].pct_change().replace([float('inf'), -float('inf')], pd.NA))
+
     return df
 
 # =====================================================
