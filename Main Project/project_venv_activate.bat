@@ -1,0 +1,1 @@
+cmd.exe /K "C:\UTAR - Master\Master Project\(old)Project\venv\Scripts\activate"

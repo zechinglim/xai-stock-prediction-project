@@ -1,0 +1,14 @@
+Country,Name,Ticker,Total_Rows,Eligible_Volatility_5,Eligible_Volatility_10,Eligible_All_Features
+Malaysia,Affin Bank,5185.KL,2885,2869,2865,2819
+Malaysia,Alliance Bank,2488.KL,2887,2877,2867,2821
+Malaysia,Ambank,1015.KL,2892,2872,2852,2760
+Malaysia,BIMB,5258.KL,2878,2831,2788,2599
+Malaysia,CIMB,1023.KL,2896,2891,2886,2863
+Malaysia,Hong Leong,5819.KL,2896,2891,2886,2863
+Malaysia,MBSB,1171.KL,2895,2877,2875,2829
+Malaysia,Maybank,1155.KL,2896,2891,2886,2863
+Malaysia,Public Bank,1295.KL,2894,2878,2874,2828
+Malaysia,RHB,1066.KL,2875,2855,2835,2743
+Singapore,DBS,D05.SI,2968,2963,2958,2935
+Singapore,OCBC,O39.SI,2968,2963,2958,2935
+Singapore,UOB,U11.SI,2968,2963,2958,2935

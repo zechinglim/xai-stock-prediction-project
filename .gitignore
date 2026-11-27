@@ -1,4 +1,12 @@
-project_venv_activate.bat
+# Licensed LSEG data
+/Main Project/data/
+
+#Result csv
+/Main Project/results
+
+# Python environment and cache
+.venv/
 venv/
 __pycache__/
 .ipynb_checkpoints/
+.env
