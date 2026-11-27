@@ -1,3 +1,0 @@
-Country,Candidate,Strategy,Training_Groups,Prediction_Rows,Matching_Predictions,Different_Predictions,Agreement
-Malaysia,Original,Rolling_156W,5,189,189,0,1.0
-Singapore,Depth3_Regularised,Fixed,1,1488,1488,0,1.0

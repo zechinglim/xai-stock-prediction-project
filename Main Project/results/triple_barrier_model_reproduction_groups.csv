@@ -1,7 +1,0 @@
-Country,Strategy,Candidate,Training_Week,Training_Rows,Prediction_Rows,Matching_Predictions,Different_Predictions,Agreement,Recorded_Accuracy,Reproduced_Accuracy
-Malaysia,Rolling_156W,Original,2023-01-02,7174,40,40,0,1.0,0.7,0.7
-Malaysia,Rolling_156W,Original,2023-07-03,7126,50,50,0,1.0,0.64,0.64
-Malaysia,Rolling_156W,Original,2024-01-01,7142,39,39,0,1.0,0.48717948717948717,0.48717948717948717
-Malaysia,Rolling_156W,Original,2024-07-01,7191,50,50,0,1.0,0.44,0.44
-Malaysia,Rolling_156W,Original,2024-12-23,7253,10,10,0,1.0,0.7,0.7
-Singapore,Fixed,Depth3_Regularised,2023-01-01,5908,1488,1488,0,1.0,0.49731182795698925,0.49731182795698925
